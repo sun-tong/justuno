@@ -1,0 +1,4 @@
+function ju_callback(t,email){
+	metrilo.identify(email, {email: email,tags: ['subscribed_uno']});
+	metrilo.event('subscribed_uno');
+}  
